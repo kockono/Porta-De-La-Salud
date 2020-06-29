@@ -27,3 +27,6 @@
     animation-name: fadeIn;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
