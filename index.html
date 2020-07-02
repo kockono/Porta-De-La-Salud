@@ -18,17 +18,22 @@
     integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
     crossorigin="anonymous"></script>
 </head>
+<style>
+  .pointer {
+    cursor: pointer;
+  }
+</style>
 
 <body class="">
 
   <nav class="">
     <div id="logo"><a href="#home">
-      <img src="img/logo.png" style="width: 100px;height:auto;">
-    </a></div>
+        <img src="img/logo.png" style="width: 100px;height:auto;">
+      </a></div>
     <ul class="nav-links">
-      
+
       <a href="#conocenos">
-        <li>Conócenos</li>
+        <li>Bienvenido</li>
       </a>
       <a href="#usuarios">
         <li>Nuestros Usuarios</li>
@@ -45,15 +50,15 @@
       <a href="#footer">
         <li>Contáctanos</li>
       </a>
-          <div id="content-desktop">
-        <button class="cosa" >Iniciar sesion</button>
-        </div>
+      <div id="content-desktop">
+        <button class="cosa">Iniciar sesion</button>
+      </div>
       </a>
       <div id="content-mobile">
         <a href="#footer">
-          <li class="cosa" style="color: white;" >Iniciar sesion</li>
+          <li class="cosa" style="color: white;">Iniciar sesion</li>
         </a>
-        </div>
+      </div>
     </ul>
     <div class="barra">
       <div id="line1"></div>
@@ -62,11 +67,15 @@
     </div>
   </nav>
 
-  <div class="header animated fadeIn fast" id="home">
+
+  <div id="lfb">
+    <div class="animated fadeIn fast">
+      <img class="top" src="img/headerOpaca.png"/>  
+    </div>
     <div class="hero-texto">
       <h1 style="font-size:50px">Portal de la Salud</h1>
       <p>Bienvenido</p>
-      <a href="#footer"><button class="boton">Contáctanos</button></a>
+      <a href="#footer"><button class="boton pointer">Registrarse</button></a>
     </div>
   </div>
   <div id="conocenos">
@@ -79,7 +88,7 @@
         enfermeros y más profesionales en el tema de la salud, poniendo a tu alcance un catálogo de servicios donde
         puedes administrar o agendar tus citas médicas, cotizar productos farmacéuticos y localizar laboratorios
         clínic
-        
+
     </div>
   </div>
 
@@ -87,190 +96,226 @@
     <h1>⠀⠀⠀⠀</h1>
   </div>
   <div class="divisiones4">
-    <h2>Nuestros Usuarios</h2>
-    </div>
+    <h2 style="color: #ffffff;">Nuestros Usuarios</h2>
+  </div>
   <div class="divisiones2">
     <div class="texto">
-      
+
       <h4>Médicos</h4>
       <img class="imagen animated fadeIn fast" src="img/doctor1.jpg" style="float:left;width: 300x;height: 250px;   text-decoration: none;
                               margin-left: auto; margin-bottom: 10%;
                               margin-right: 3%;
                               display: table;" alt="" class="au-mb-3">
-      <p class="informacion"  > Portal de la salud, la plataforma de todos pone a tu disposición su módulo diseñado para médicos el cual te
+      <p class="informacion"> Portal de la salud, la plataforma de todos pone a tu disposición su módulo diseñado para
+        médicos el cual te
         permite dar de alta los servicios profesionales que ofreces a todos nuestros usuarios, administrar tus citas
         médicas, crear y consultar recetas emitidas en cualquier momento, contar con acceso ilimitado a nuestro
         directorio de farmacias, laboratorios clínicos, laboratorios farmacéuticos, enfermeros y proveedores de
         medicamentos para que tus consultas sean aún más completas, contamos adicionalmente con en nuestra página de
-        Facebook oficial a través de la cual te darás a conocer dentro y fuera de tu localidad.No lo pienses más y regístrate.
+        Facebook oficial a través de la cual te darás a conocer dentro y fuera de tu localidad.No lo pienses más y
+        regístrate.
 
       </p>
 
 
-    
-  </div>
-  
-  <label for="check" >Ver mas info</label>
-  <input id="check" type="checkbox">
-  <div class="test">
-    <p >I am some hidden text</p>
-  </div>
 
-  <div class="divisiones3">
-    <div class="texto">
-      <h4>Farmacias</h4>
-      <img  class="imagen animated fadeIn fast"src="img/doctor1.jpg" style="float:right;width: 300x;height: 250px;   text-decoration: none;
+    </div>
+
+    <label for="check">Beneficios</label>
+    <input id="check" type="checkbox">
+    <div class="test">
+      <li> Aparecer en el directorio de médicos. </li>
+      <li> Administración de su catálogo de servicios. </li>
+      <li> Ofertar sus servicios      </li>
+      <li> Publicar artículos de interés      </li>
+      <li> Administración de pacientes (crear y consultar recetas).      </li>
+      <li> Administración de citas.      </li>
+      <li> Accesos a directorio de farmacias, laboratorios clínicos, laboratorios farmacéuticos, enfermeros, proveedores
+        de medicamentos.      </li>
+      <li> Compartir información en Facebook.      </li>
+      <LI> Primer mes gratis, después pagas a partir de la primera cita agendada (Agregar botón de acción).      </LI>
+    </div>
+
+    <div class="divisiones3">
+      <div class="texto">
+        <h4>Farmacias</h4>
+        <img class="imagen animated fadeIn fast" src="img/doctor1.jpg" style="float:right;width: 300x;height: 250px;   text-decoration: none;
       margin-left: 3%; margin-bottom: 10%;
       margin-right: auto;
       display: table;" alt="" class="au-mb-3">
-      <p class="informacion">La mayoría de las personas en la actualidad buscan la forma de obtener su producto farmacéutico de forma más
-        eficiente y lo están haciendo a través de medios digitales; si eres el administrador de una farmacia te
-        ofrecemos un espacio en nuestra plataforma, en donde le puedes ofrecer a tus clientes tu catalogó de productos y
-        ofertas; además de poder participar en el cotizador de la plataforma contestando la existencia del producto
-        cotizado de manera inmediata, tu cliente te va a agradecer el poder facilitarle la obtención de su producto.
-      </p>
-      
-      <label for="check2" >Ver mas info</label>
-      <input id="check2" type="checkbox">
-      <div class="test">
-        <p >I am some hidden text</p>
+        <p class="informacion">La mayoría de las personas en la actualidad buscan la forma de obtener su producto
+          farmacéutico de forma más
+          eficiente y lo están haciendo a través de medios digitales; si eres el administrador de una farmacia te
+          ofrecemos un espacio en nuestra plataforma, en donde le puedes ofrecer a tus clientes tu catalogó de productos
+          y
+          ofertas; además de poder participar en el cotizador de la plataforma contestando la existencia del producto
+          cotizado de manera inmediata, tu cliente te va a agradecer el poder facilitarle la obtención de su producto.
+        </p>
+
+        <label for="check2">Beneficios</label>
+        <input id="check2" type="checkbox">
+        <div class="test">
+          <li>Aparecer en el directorio de farmacias. </li>
+        	<li>Administración de su catálogo de productos farmacéuticos.  </li>
+        	<li>Ofertar sus productos farmacéuticos. </li>
+        	<li>Publicar artículos de interés.</li>
+        	<li>Ver las cotizaciones de usuarios. </li>
+        	<li>Confirmar existencia de producto farmacéutico en cotización.</li>
+        	<li>Ver ofertas de proveedores y laboratorios farmacéuticos. </li>
+        	<li>Compartir información en Facebook. </li>
+        	<li>Confirmación de existencia de un producto nuevo que salga al mercado. </li>
+        </div>
+
       </div>
-
     </div>
-  </div>
 
-  <div class="divisiones2">
-    <div class="texto">
-      <h4>Clínicas</h4>
-      <img  class="imagen animated fadeIn fast"src="img/doctor1.jpg" style="float:left;width: 300x;height: 250px;   text-decoration: none;
-      margin-left: auto; margin-bottom: 10%;
-      margin-right: 3%;
-      display: table;"  alt="" class="au-mb-3">
-      <p class="informacion"> En portal de la salud sabemos que las clínicas son vitales para salvaguardar la calidad de vida de cada uno de
-        nosotros, es por eso que hemos creado un módulo diseñado especialmente para ellas en el cual pueden ofertar sus
-        servicios los cuales podrán ser visualizados tanto por nuestros médicos como por nuestros usuarios generales
-        consiguiendo con esto un mayor alcance de clientes, tendrán además acceso a nuestro directorio de farmacias,
-        laboratorios clínicos, laboratorios farmacéuticos, enfermeros y proveedores de medicamentos pudiendo con esto
-        conseguir mayores relaciones laborales que te permitan expandir tu negocio, además de todo esto, tu perfil será
-        publicado en nuestra página oficial de Facebook dándote a conocer en diferentes estados del país.
-      </p>
-
-
-      <label for="check3" >Ver mas info</label>
-      <input id="check3" type="checkbox">
-      <div class="test">
-        <p >I am some hidden text</p>
-      </div>
-
-
-    </div>
-  </div>
-  <div class="divisiones3">
-    <div class="texto">
-      <h4>Laboratorios Clínicos</h4>
-      <img  class="imagen animated fadeIn fast" src="img/doctor1.jpg" style="float:right;width: 300x;height: 250px;   text-decoration: none;
-      margin-left: 3%; margin-bottom: 10%;
-      margin-right: auto;
-      display: table;" alt="" class="au-mb-3">
-      <p class="informacion">
-        Donde hay doctores y pacientes no puede faltar un laboratorio clínico, sabemos de la importancia de tus
-        servicios ya sea para diagnosticar o prevenir enfermedades, queremos que siga unido el equipo médico paciente y
-        laboratorio clínico, es por eso que en portal de la salud tenemos un espacio para ti; muchos de nuestros
-        usuarios buscan resultados clínicos de calidad.
-      </p>
-
-
-      <label for="check4" >Ver mas info</label>
-      <input id="check4" type="checkbox">
-      <div class="test">
-        <p >I am some hidden text</p>
-      </div>
-
-
-    </div>
-  </div>
-  <div class="divisiones2">
-    <div class="texto">
-      <h4>Enfermeros</h4>
-      <img  class="imagen animated fadeIn fast" src="img/doctor1.jpg" style="float:left;width: 300x;height: 250px;   text-decoration: none;
+    <div class="divisiones2">
+      <div class="texto">
+        <h4>Clínicas</h4>
+        <img class="imagen animated fadeIn fast" src="img/doctor1.jpg" style="float:left;width: 300x;height: 250px;   text-decoration: none;
       margin-left: auto; margin-bottom: 10%;
       margin-right: 3%;
       display: table;" alt="" class="au-mb-3">
-      <p class="informacion">¿Eres enfermero y buscas darte a conocer dentro de tu localidad o país? Portal de la salud pone a tu
-        disposición su módulo de enfermeros en el cual puedes registrar los servicios que proporcionas para que estén al
-        alcance de nuestros usuarios generales y médicos, además de facilitar la administrar a tus pacientes te daremos
-        a conocer a través de nuestra página de Facebook oficial y podrás tener acceso a nuestro directorio de
-        farmacias, laboratorios clínicos, laboratorios farmacéuticos y proveedores de medicamentos.
-      </p>
+        <p class="informacion"> En portal de la salud sabemos que las clínicas son vitales para salvaguardar la calidad
+          de vida de cada uno de
+          nosotros, es por eso que hemos creado un módulo diseñado especialmente para ellas en el cual pueden ofertar
+          sus
+          servicios los cuales podrán ser visualizados tanto por nuestros médicos como por nuestros usuarios generales
+          consiguiendo con esto un mayor alcance de clientes, tendrán además acceso a nuestro directorio de farmacias,
+          laboratorios clínicos, laboratorios farmacéuticos, enfermeros y proveedores de medicamentos pudiendo con esto
+          conseguir mayores relaciones laborales que te permitan expandir tu negocio, además de todo esto, tu perfil
+          será
+          publicado en nuestra página oficial de Facebook dándote a conocer en diferentes estados del país.
+        </p>
 
 
-      <label for="check5" >Ver mas info</label>
-      <input id="check5" type="checkbox">
-      <div class="test">
-        <p >I am some hidden text</p>
+        <label for="check3">Beneficios</label>
+        <input id="check3" type="checkbox">
+        <div class="test">
+
+        </div>
+
+
       </div>
-
-
     </div>
-  </div>
-
-  <div class="divisiones3">
-    <div class="texto">
-      <h4>Laboratorios farmacéuticos</h4>
-      <img  class="imagen animated fadeIn fast" src="img/doctor1.jpg"
-      style="float:right;width: 300x;height: 250px;   text-decoration: none;
+    <div class="divisiones3">
+      <div class="texto">
+        <h4>Laboratorios Clínicos</h4>
+        <img class="imagen animated fadeIn fast" src="img/doctor1.jpg" style="float:right;width: 300x;height: 250px;   text-decoration: none;
       margin-left: 3%; margin-bottom: 10%;
       margin-right: auto;
-      display: table;"
-        alt="" class="au-mb-3">
-      <p class="informacion"> Llegar con tu producto a las personas que realmente lo necesitan puede ser una tarea muy complicada, es
-        necesario localizar primero, los medios de distribución adecuados y esto también es tardado ya que no se puede
-        llegar con todos a la vez; en portal de la salud puedes lograrlo, ya que, te permite localizar a más de un medio
-        de distribución, además de acercarte a los médicos y directamente a los pacientes que necesitan de tu producto.
-      </p>
+      display: table;" alt="" class="au-mb-3">
+        <p class="informacion">
+          Donde hay doctores y pacientes no puede faltar un laboratorio clínico, sabemos de la importancia de tus
+          servicios ya sea para diagnosticar o prevenir enfermedades, queremos que siga unido el equipo médico paciente
+          y
+          laboratorio clínico, es por eso que en portal de la salud tenemos un espacio para ti; muchos de nuestros
+          usuarios buscan resultados clínicos de calidad.
+        </p>
 
 
-      <label for="check6" >Ver mas info</label>
-      <input id="check6" type="checkbox">
-      <div class="test">
-        <p >I am some hidden text</p>
+        <label for="check4">Beneficios</label>
+        <input id="check4" type="checkbox">
+        <div class="test">
+          <li>Aparecer en el directorio de laboratorios clínicos. </li>
+          <li>Administración de su catálogo de servicios. </li>
+          <li>Ofertar sus servicios. </li>
+          <li>Publicar artículos de interés.  </li>
+          <li>Compartir información en Facebook. </li>
+          <li>Accesos a directorio de farmacias, enfermeros, médicos. </li>
+        </div>
       </div>
-
-
     </div>
-  </div>
- 
-
-
-  <div class="divisiones2">
-    <div class="texto">
-      <h4>Proveedores de medicamentos</h4>
-      <img  class="imagen animated fadeIn fast" src="img/doctor1.jpg" style="float:left;width: 300x;height: 250px;   text-decoration: none;
+    <div class="divisiones2">
+      <div class="texto">
+        <h4>Enfermeros</h4>
+        <img class="imagen animated fadeIn fast" src="img/doctor1.jpg" style="float:left;width: 300x;height: 250px;   text-decoration: none;
       margin-left: auto; margin-bottom: 10%;
       margin-right: 3%;
-      display: table;"
-        alt="" class="au-mb-3">
-      <p class="informacion"> A veces no basta llegar con una mejor oferta a la farmacia que le quieres ofrecer tu producto, a veces es
-        necesario llegar antes que los demás, en portal de la Salud te ofrecemos un medio que te permite acceder en unos
-        segundos a todas las farmacias registradas en nuestra plataforma. </p>
-        <label for="check7" >Ver mas info</label>
+      display: table;" alt="" class="au-mb-3">
+        <p class="informacion">¿Eres enfermero y buscas darte a conocer dentro de tu localidad o país? Portal de la
+          salud pone a tu
+          disposición su módulo de enfermeros en el cual puedes registrar los servicios que proporcionas para que estén
+          al
+          alcance de nuestros usuarios generales y médicos, además de facilitar la administrar a tus pacientes te
+          daremos
+          a conocer a través de nuestra página de Facebook oficial y podrás tener acceso a nuestro directorio de
+          farmacias, laboratorios clínicos, laboratorios farmacéuticos y proveedores de medicamentos.
+        </p>
+
+
+        <label for="check5">Beneficios</label>
+        <input id="check5" type="checkbox">
+        <div class="test">
+          <li>Aparecer en el directorio de enfermeros. </li>
+          <li>Poder compartir su perfil en Facebook. </li>
+          <li>Administración de su catálogo de servicios.</li>
+          <li>Publicar artículos de interés.</li>
+          <li>Accesos a directorio de laboratorios clínicos, médicos, farmacias y clínicas. Primer mes gratis</li>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="divisiones3">
+      <div class="texto">
+        <h4>Laboratorios farmacéuticos</h4>
+        <img class="imagen animated fadeIn fast" src="img/doctor1.jpg" style="float:right;width: 300x;height: 250px;   text-decoration: none;
+      margin-left: 3%; margin-bottom: 10%;
+      margin-right: auto;
+      display: table;" alt="" class="au-mb-3">
+        <p class="informacion"> Llegar con tu producto a las personas que realmente lo necesitan puede ser una tarea muy
+          complicada, es
+          necesario localizar primero, los medios de distribución adecuados y esto también es tardado ya que no se puede
+          llegar con todos a la vez; en portal de la salud puedes lograrlo, ya que, te permite localizar a más de un
+          medio
+          de distribución, además de acercarte a los médicos y directamente a los pacientes que necesitan de tu
+          producto.
+        </p>
+
+
+        <label for="check6">Beneficios</label>
+        <input id="check6" type="checkbox">
+        <div class="test">
+          <p>I am some hidden text</p>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    <div class="divisiones2">
+      <div class="texto">
+        <h4>Proveedores de medicamentos</h4>
+        <img class="imagen animated fadeIn fast" src="img/doctor1.jpg" style="float:left;width: 300x;height: 250px;   text-decoration: none;
+      margin-left: auto; margin-bottom: 10%;
+      margin-right: 3%;
+      display: table;" alt="" class="au-mb-3">
+        <p class="informacion"> A veces no basta llegar con una mejor oferta a la farmacia que le quieres ofrecer tu
+          producto, a veces es
+          necesario llegar antes que los demás, en portal de la Salud te ofrecemos un medio que te permite acceder en
+          unos
+          segundos a todas las farmacias registradas en nuestra plataforma. </p>
+        <label for="check7">Beneficios</label>
         <input id="check7" type="checkbox">
         <div class="test">
-          <p >I am some hidden text</p>
+          <p>I am some hidden text</p>
         </div>
+      </div>
+
+
+
+
     </div>
-
-    
-  
-
   </div>
-  </div>
- 
+
   <div class="divisiones3">
     <div class="texto">
       <h4>Usuarios generales</h4>
-      <img  class="imagen animated fadeIn fast" src="img/doctor1.jpg" src="img/doctor1.jpg"
-      style="float:right;width: 300x;height: 250px;   text-decoration: none;
+      <img class="imagen animated fadeIn fast" src="img/doctor1.jpg" src="img/doctor1.jpg" style="float:right;width: 300x;height: 250px;   text-decoration: none;
       margin-left: 3%; margin-bottom: 10%;
       margin-right: auto;
       display: table;" alt="" class="au-mb-3">
@@ -284,10 +329,10 @@
 
 
 
-      <label for="check8" >Ver mas info</label>
+      <label for="check8">Beneficios</label>
       <input id="check8" type="checkbox">
       <div class="test">
-        <p >I am some hidden text</p>
+        <p>I am some hidden text</p>
       </div>
 
 
@@ -415,7 +460,7 @@
                 <span class="tooltiptext"> @portaldesaludlzc </span>
               </th>
               <th class="tooltip">
-                <a class="social-button otro"  href="https://www.facebook.com/portaldesaludlzc/" target="_blank"><i 
+                <a class="social-button otro" href="https://www.facebook.com/portaldesaludlzc/" target="_blank"><i
                     class="fab fa-facebook-messenger"></i></a>
                 <span class="tooltiptext"> @portaldesaludlzc </span>
               </th>

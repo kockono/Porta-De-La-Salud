@@ -30,3 +30,53 @@
   html {
     scroll-behavior: smooth;
   }
+
+/* Cambio De Imagenes  */
+#lfb 
+{  
+background-image: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.877)), url("../img/header2.png");
+position:relative;  
+margin:0 auto;
+width: auto;
+height:100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 5%;
+}
+#lfb img
+{  
+position:absolute;  
+left:0;  
+-webkit-transition: opacity 1s ease-in-out;  
+-moz-transition: opacity 1s ease-in-out;  
+-o-transition: opacity 1s ease-in-out;  
+transition: opacity 1s ease-in-out;
+
+}
+@keyframes lfb3FadeInOut 
+{  
+0% {  opacity:1;}
+45% {opacity:1;}
+55% {opacity:0;}
+100% {opacity:0;}
+
+}
+
+#lfb img.top 
+{
+position:relative;  
+margin:0 auto;
+width: auto;
+height:100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+animation-name:lfb3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-direction: alternate;
+
+}

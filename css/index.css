@@ -55,23 +55,25 @@ label:hover {
 }
 
 .test {
+  padding-left: 1%;
+  color: black;
   text-align: justify;
   text-justify: inter-word;
   -webkit-transition: height .3s ease;
   height: 0;
   overflow: hidden;
   width: auto;
-  background: rgba(0, 0, 0, 0.281);
+  background: rgba(0, 0, 0, 0.11);
   border-radius: 8px;
   margin-top: 10px;
   display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5%;
+    margin-right: 5%;
     
 }
 
 input:checked + .test {
-  height: 100px;
+  height: 250px;
 }
 
 
@@ -95,16 +97,16 @@ input:checked + .test {
     }
  
      /*HEADER*/
-      .header{
+      /* .header{
           position: relative;
-          background-image: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.877)), url("../img/header.jpeg");
+          background-image: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.877)), url("../img/header.png");
           width: auto;
           height:100vh;
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
           margin-bottom: 5%;
-    }
+    } */
     .hero-texto {
       border:1px dotted rgba(0, 0, 0, 0); 
       padding:8px;
