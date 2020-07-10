@@ -500,7 +500,11 @@ h3 {
   animation: moveBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
+.centrado{
+  margin-left: 15%;
+  display: inline-block;
 
+}
 .box-line{
   display: inline-block;
   width: 200px;
