@@ -501,7 +501,7 @@ h3 {
   animation-fill-mode: backwards;
 }
 .centrado{
-  margin-left: 15%;
+  /* margin-left: 15%; */
   display: inline-block;
 
 }
