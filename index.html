@@ -14,6 +14,7 @@
   <!-- Css Templete -->
   <link rel="stylesheet" href="css/responsivo.css">
   <!-- SCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
     integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
     crossorigin="anonymous"></script>
@@ -87,7 +88,7 @@
         clínic
     </div>
   </div> -->
-  <div class="divisiones4">
+  <div class="divisiones4" id="usuarios">
     <h2 style="color: #ffffff;">Nuestros Usuarios</h2>
   </div>
   <div class="divisiones2">
@@ -331,7 +332,7 @@
   <div class="divisiones3">
     <div class="texto">
       <h4 style="margin-left: 40%">Usuarios generales</h4>
-      <img class="imagen animated fadeIn fast" src="img/doctor1.jpg" src="img/doctor1.jpg" style="float:right;width: 300x;height: 250px;   text-decoration: none;
+      <img class="imagen animated fadeIn fast" src="img/doctor1.jpg"  style="float:right;width: 300x;height: 250px;   text-decoration: none;
       margin-left: 3%; margin-bottom: 10%;
       margin-right: auto;
       display: table;" alt="" class="au-mb-3">
@@ -365,25 +366,82 @@
 
 
   <div id="clientes">
-    <h1>⠀⠀⠀⠀</h1>
   </div>
-  <div class="divisiones">
+  <div class="division-clientes">
     <div class="texto">
-      <h2>Clientes</h2>
-      <p class="informacion"> (mostrar clientes aleatorio)
+      <h4>Clientes</h4>
+        <div class="box-line">
+          <img class="imagen animated fadeIn fast" src="img/doctor1.jpg">
+          <p>Dra. Federica</p>
+          <h6 style="padding: 5px;">Es buena onda con la gente y se acopla</h6>
+
+        </div>
+        <div class="box-line">
+          <img class="imagen animated fadeIn fast" src="img/doctor1.jpg">
+          <p>Dra. Federica</p>
+          <h6 style="padding: 5px;">Es buena onda con la gente</h6>
+
+        </div>
+        <div class="box-line">
+          <img class="imagen animated fadeIn fast" src="img/doctor1.jpg">
+          <p>Dra. Federica</p>
+          <h6 style="padding: 5px;">Es buena onda con la gente</h6>
+
+        </div>
+        <div class="box-line">
+          <img class="imagen animated fadeIn fast" src="img/doctor1.jpg">
+          <p>Dra. Federica</p>
+          <h6 style="padding: 5px;">Es buena onda con la gente</h6>
+
+        </div>
+        <div class="box-line">
+          <img class="imagen animated fadeIn fast" src="img/doctor1.jpg">
+          <p>Dra. Federica</p>
+           <h6 style="padding: 5px;">Es buena onda con la gente</h6>
+        </div>
       </p>
     </div>
   </div>
   <div id="emergencia">
-    <h1>⠀⠀⠀⠀</h1>
   </div>
   <div class="divisiones2">
+<div class="container">
     <div class="texto">
       <h2>Números telefónicos de emergencia.</h2>
-      <p class="informacion"> Emergencias monterrey: 614 471 59 48
-        <!-- <p>Emergencias monterrey: 614 471 59 48</p> -->
+        <div id="carrusel">
+          <a href="#" class="left-arrow"><img src="img/left-arrow.png" /></a>
+          <a href="#" class="right-arrow"><img src="img/right-arrow.png" /></a>
+          <div class="carrusel">
+              <div class="product" id="product_0">
+                  <h5 style=" color:red;">Guadalajara</h5>
+                  <p>+52 177 64 40</p>
+              </div>
+              <div class="product" id="product_1">
+                  <h5  style=" color:red;">Zacatecas</h5>
+                  <p>+52</p>
+              </div>
+              <div class="product" id="product_2">
+                  <h5  style=" color:red;">Guanajuato</h5>
+                  <p>+52</p>
+              </div>
+              <div class="product" id="product_3">
+                  
+                  <h5  style=" color:red;">Tamaulipas</h5>
+                  <p>+52</p>
+              </div>
+              <div class="product" id="product_4">
+                  <h5  style=" color:red;">Mexicali</h5>
+                  <p>+52</p>
+              </div>
+              <div class="product" id="product_5">
+                  <h5  style=" color:red;">Sonora</h5>
+                  <p>+52</p>
+              </div>
+          </div>
+      </div>
       </p>
     </div>
+</div>
   </div>
 
 
@@ -513,7 +571,7 @@
       </footer>
     </div>
     <script type="text/javascript" src="js/barra.js"></script>
-
+    <script type="text/javascript"  src="js/carrusel.js"></script>
 </body>
 
 </html>

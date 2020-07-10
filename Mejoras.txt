@@ -1,0 +1,24 @@
+El texto de conocenos ira en bienvenido en vez de contactanos
+
+El boton de contactanos sera (registrarte)
+
+Las letras de contactanos en blanco en vez de negro
+
+en la barra que sea un mejor 1 sola linea de texto
+
+Lado derecho de la barra iniciar sesion 
+
+cambiar el orden
+
+nuestros usuarios cambiarlo a arribita ne otro linea
+
+imagenes con bordeado
+
+en clientes titulos si es cardiologo harcodea 3 o 4
+
+En numeros telefonicos de emergencia, abajo del numero un texto que sea el numero nombre
+del telefono cruz roja tamaulipas
+
+Agregar messenger en footbar
+
+agregar al menos una animacion en texto para que no sea tan estatico
